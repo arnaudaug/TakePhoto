@@ -37,7 +37,7 @@ public partial class MainPage : ContentPage
 			await sourceStream.CopyToAsync(localFileStream);
 
 			// Display captured photo path in console
-			Console.WriteLine($@"Photo enregistrée à : {localFilePath}");
+			Console.WriteLine($@"Photo saved to : {localFilePath}");
 		}
 	}
 }
